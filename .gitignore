@@ -6,7 +6,10 @@ __pycache__/
 *.pyd
 
 # Data Files
-*.csv #If you do not want to upload the csv data.
+*.csv #If you do not want to upload the csv data.a=
+
+# Environment Variables
+.env
 
 # OS Specific Files
 .DS_Store
