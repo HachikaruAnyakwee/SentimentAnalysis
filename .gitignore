@@ -1,0 +1,24 @@
+# Python Virtual Environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data Files
+*.csv #If you do not want to upload the csv data.
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
+
+# IDE Specific Files
+.idea/
+*.swp
+*.swo
+*.vscode/
+
+# Package/Distribution Files
+build/
+dist/
+*.egg-info/
