@@ -1,4 +1,4 @@
-Sentiment by source plot saved to: sentiment_by_source.png
+📊 Sentiment by source plot saved to: sentiment_by_source.png
 
 🔎 Top 5 Most Positive Comments (VADER score > 0.8):
   Source: YouTube
