@@ -25,9 +25,12 @@ This project analyzes public sentiment regarding Mark Carney’s appointment as 
 ## Project Structure
 SentimentAnalysis/
 ├── data/
-│   ├── raw/ (Original scraped data)
-│   ├── cleaned/ (Cleaned datasets)
-│   ├── processed/ (Final preprocessed datasets)
+│   ├── raw/
+│   │   └── (Original scraped data)
+│   ├── cleaned/
+│   │   └── (Cleaned datasets)
+│   ├── processed/
+│   │   └── (Final preprocessed datasets)
 │   ├── sentiment/
 │   │   ├── negative_word_frequency.png
 │   │   ├── negative_wordcloud.png
@@ -42,11 +45,12 @@ SentimentAnalysis/
 │   │   ├── sentiment_analysis.csv
 │   │   ├── sentiment_by_source.png
 │   │   └── sentiment_distribution.png
-│   └── merged/ (Merged SQL dataset)
+│   └── merged/
+│       └── (Merged SQL dataset)
 │
 ├── reports/
 │   ├── [final_report.pdf](reports/final_report.pdf) (Structured final analysis)
-│   ├── [thought_process.txt](reports/thought_process.txt) (Raw project journey)
+│   └── [thought_process.txt](reports/thought_process.txt) (Raw project journey)
 │
 ├── src/
 │   ├── [scrape_reddit.ipynb](src/scrape_reddit.ipynb) (Scraping Reddit comments)
@@ -59,11 +63,11 @@ SentimentAnalysis/
 │   ├── [sentiment_analysis.ipynb](src/sentiment_analysis.ipynb) (Classifying sentiment using [VADER](https://pypi.org/project/vaderSentiment/) and [TextBlob](https://pypi.org/project/TextBlob/))
 │   ├── [sentiment_results_analysis.ipynb](src/sentiment_results_analysis.ipynb) (Visualizing sentiment results)
 │   ├── [neutral_comments_analysis.ipynb](src/neutral_comments_analysis.ipynb) (Analyzing neutral sentiment)
-│   ├── [sentiment_keywords_anaysis.ipynb](src/sentiment_keywords_anaysis.ipynb) (Keyword-level sentiment analysis)
+│   └── [sentiment_keywords_anaysis.ipynb](src/sentiment_keywords_anaysis.ipynb) (Keyword-level sentiment analysis)
 │
 ├── [README.md](README.md)
 ├── [.gitignore](.gitignore)
-├── [requirements.txt](requirements.txt)
+└── [requirements.txt](requirements.txt)
 
 ## Setup Instructions
 
