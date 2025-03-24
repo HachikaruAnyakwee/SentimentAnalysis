@@ -1,27 +1,38 @@
-# Python Virtual Environment
+#Python Virtual Environment
 venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Data Files
-*.csv #If you do not want to upload the csv data.a=
+#Jupyter Notebook Auto-Saves
+.ipynb_checkpoints/
 
-# Environment Variables
+#Environment Variables
 .env
 
-# OS Specific Files
+#OS Specific Files
 .DS_Store
 Thumbs.db
 
-# IDE Specific Files
+#IDE Specific Files
 .idea/
 *.swp
 *.swo
-*.vscode/
+.vscode/
 
-# Package/Distribution Files
+#Package/Distribution Files
 build/
 dist/
 *.egg-info/
+
+#Logs
+*.log
+logs/
+*.out
+*.err
+
+#Ignore large dataset backups (optional)
+data/raw/
+data/processed/
+data/merged/

@@ -1,0 +1,13 @@
+pandas
+numpy
+nltk
+matplotlib
+seaborn
+wordcloud
+sqlite3
+textblob
+vaderSentiment
+praw
+snscrape
+requests
+python-dotenv

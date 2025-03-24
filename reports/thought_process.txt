@@ -1,0 +1,22 @@
+started proj w sentiment analysis on coca cola but twitter api wahala made me switch up. roadblock #1  
+
+upd8d proj concept to focus on canadian politics. scraped data from youtube, reddit, news.  
+scraping was smooth except for youtube timing out a few times. we move.  
+
+first clean - removed duplicates + irrelevant junk. data looking nicer but noticed neutral sentiment was too high. felt off.  
+
+merged datasets using sql. was clean but needed one more preprocess pass. cleaned again.  
+
+sentiment analysis round 1 - vader & textblob. neutral still high.  
+deep dive - words like "election" were neutral but context was actually negative. sentiment models ain't perfect.  
+
+added keyword analysis - bingo. negative sentiment mostly on unelected prime minister argument.  
+positive sentiment clustered around leadership strength. youtube was most divided. reddit was balanced.  
+
+final thoughts:  
+- sentiment models don't get context 100%. words like "election" may look neutral but mean different things.  
+- public perception of unelected leadership leans negative. election legitimacy is a big deal.  
+- next time, machine learning classifiers could be better than rule-based sentiment models.  
+
+proj was smooth overall, except for twitter's wahala.  
+final report ready. visuals look solid. repo structured well for github. e don finish.  
