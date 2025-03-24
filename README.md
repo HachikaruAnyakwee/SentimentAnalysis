@@ -23,6 +23,7 @@ This project analyzes public sentiment regarding Mark Carney’s appointment as 
 8. **Visualization & Reporting:** Generated charts and structured insights.
 
 ## Project Structure
+'''
 SentimentAnalysis/
 ├── data/
 │   ├── raw/
@@ -68,6 +69,7 @@ SentimentAnalysis/
 ├── [README.md](README.md)
 ├── [.gitignore](.gitignore)
 └── [requirements.txt](requirements.txt)
+'''
 
 ## Setup Instructions
 
