@@ -164,6 +164,7 @@ Examine the most common words in positive and negative sentiments:
 
 ## Reports
 [Final Report](reports/final_report.pdf): In-depth analysis with charts and insights.
+
 [Thought Process](reports/thought_process.txt): Raw documentation of the entire workflow, challenges, and decisions.
 
 ## License
