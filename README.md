@@ -28,8 +28,21 @@ SentimentAnalysis/
 │   ├── raw/ (Original scraped data)
 │   ├── cleaned/ (Cleaned datasets)
 │   ├── processed/ (Final preprocessed datasets)
-│   ├── sentiment/ (Sentiment analysis results)
-│   ├── merged/ (Merged SQL dataset)
+│   ├── sentiment/
+│   │   ├── negative_word_frequency.png
+│   │   ├── negative_wordcloud.png
+│   │   ├── negative_words_analysis.csv
+│   │   ├── neutral_word_frequency.png
+│   │   ├── neutral_wordcloud.png
+│   │   ├── neutral_words_analysis.csv
+│   │   ├── positive_word_frequency.png
+│   │   ├── positive_wordcloud.png
+│   │   ├── positive_words_analysis.csv
+│   │   ├── sentiment_analysis_report.txt
+│   │   ├── sentiment_analysis.csv
+│   │   ├── sentiment_by_source.png
+│   │   └── sentiment_distribution.png
+│   └── merged/ (Merged SQL dataset)
 │
 ├── reports/
 │   ├── [final_report.pdf](reports/final_report.pdf) (Structured final analysis)
