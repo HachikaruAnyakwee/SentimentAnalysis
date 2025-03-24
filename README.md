@@ -60,7 +60,6 @@ Ensure you have Python installed and required libraries available.
 ### **Installation Steps**
 1. Clone the repository:
 
-```bash
 git clone [https://github.com/your-username/SentimentAnalysis.git](https://github.com/your-username/SentimentAnalysis.git)
 cd SentimentAnalysis
 
