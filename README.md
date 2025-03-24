@@ -79,65 +79,76 @@ Ensure you have Python installed and required libraries available.
 
 ### **Installation Steps**
 1. Clone the repository:
-
+```
 git clone [https://github.com/your-username/SentimentAnalysis.git](https://github.com/your-username/SentimentAnalysis.git)
 cd SentimentAnalysis
+```
 
 2. Create a virtual environment:
-   
+```
 python -m venv venv
 source venv/bin/activate   #Mac
 venv\Scripts\activate      #Windows
+```
 
 3. Install dependencies:
-   
+```
 pip install -r requirements.txt
+```
 
 4. Ensure you have an .env file containing necessary [API](requirements.txt) keys.
 
 ## Running the Scripts
 ### **1. Data Collection**
 These scripts collect data from different sources. Run them separately:
-
+```
    python [src/scrape_reddit.ipynb](src/scrape_reddit.ipynb)
    python [src/scrape_googlenews.ipynb](src/scrape_googlenews.ipynb)
    python [src/scrape_youtube.ipynb](src/scrape_youtube.ipynb)
+```
 
 ### **2. Initial Data Cleaning**
 Once the data is collected, we perform initial cleaning to remove duplicates and unnecessary text:
-
+```
    python [src/data_cleaning.ipynb](scripts/data_cleaning.ipynb)
+```
 
 ### **3. Merging Data Using SQL**
 After cleaning, we merge the datasets into a single structured database:
-
+```
    [python src/sql_merge.ipynb](scripts/sql_merge.ipynb)
+```
 
 ### **4. Preprocessing & Final Cleaning**
 We preprocess the merged dataset and apply final cleaning:
-
+```
    [python src/preprocess_text.ipynb](scripts/preprocess_text.ipynb)
    [python src/clean_final_data.ipynb](scripts/clean_final_data.ipynb)
+```
 
 ### **5. Sentiment Analysis**
 Now we classify sentiment using [VADER](https://pypi.org/project/vaderSentiment/) and [TextBlob](https://pypi.org/project/TextBlob/):
-
+```
    [python src/sentiment_analysis.ipynb](scripts/sentiment_analysis.ipynb)
+```
 
 ### **6. Sentiment Result Visualization**
 Analyze the sentiment results with visualizations:
-
+```
    [python src/sentiment_results_analysis.ipynb](scripts/sentiment_results_analysis.ipynb)
+```
 
 ### **7. Neutral Sentiment Deep Dive**
 Investigate neutral sentiment to uncover potential biases:
-
+```
    [python src/neutral_comments_analysis.ipynb](scripts/neutral_comments_analysis.ipynb)
+```
 
 ### **8. Keyword-Level Sentiment Analysis**
 Examine the most common words in positive and negative sentiments:
-
+```
    [python src/sentiment_keywords_anaysis.ipynb](scripts/sentiment_keywords_anaysis.ipynb)
+```
 
 ## Key Findings
  - Public sentiment is highly divided on Carney’s appointment.
